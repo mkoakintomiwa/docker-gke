@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Alhamdulillahi robil alameen, Ar-Rahman Ar-Roheem');
+  res.send('Alhamdulillahi robil alameen, Ar-Rahman Ar-Roheem. Maliki yamwi deen.');
 });
 
 app.get('/devops', (req, res) => {
